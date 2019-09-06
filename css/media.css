@@ -1,0 +1,80 @@
+@media(max-width: 1199px){
+	.aboutme h2{
+		margin-bottom: 25px;
+	}
+}
+@media(max-width: 991px){
+	.banner-content p{
+	
+	margin: 25px auto 30px;
+}
+.aboutme-section .row{
+	align-items: center;
+}
+.aboutme h2{
+	font-size: 40px;
+	padding-bottom: 22px;
+}
+.aboutme h2 span{
+	font-size: 65px;
+}
+.heading{
+	padding-bottom: 10px;
+}
+.heading span{
+	font-size: 60px;
+}
+.skill-hover ul li{
+	font-size: 13px;
+}
+}
+@media(max-width: 767px){
+	.navbar-nav{
+		text-align: right;
+	}
+	.navbar-nav li::before{
+	width: 90px;
+	right: 0;
+}
+.navbar-nav li::after{
+	width: 90px;
+	right: 0;
+}
+.banner-content h1{
+	font-size: 40px;
+}
+.banner-content p{
+	margin: 15px auto 20px;
+	font-size: 13px;
+}
+
+.aboutme-section{
+	padding: 50px 0;
+}
+.aboutme-section img{
+	margin-bottom: 30px;
+}
+.aboutme{
+	text-align: center;
+}
+.aboutme p{
+	margin-bottom: 10px;
+}
+.heading span{
+	line-height: 1.2;
+	bottom: -25px;
+}
+}
+@media(max-width: 575px){
+	.social{
+		display: none;
+	}
+	.skills-section h3{
+	font-size: 18px;
+}
+}
+@media(max-width: 420px){
+	.navbar-brand img{
+		width: 100px;
+	}
+}
